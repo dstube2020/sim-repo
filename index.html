@@ -1,11 +1,50 @@
 <html>
-<head>
+<header>
+<style>
+ul
+{ list-style-type:none;
+  margin:0;
+  padding:0;
+  width:20%;
+  height:100%;
+  position:fixed;
+  overflow:auto;
+  background-color:f1f1f1;
+  border: 1px solid #555;
+}
+li a
+{ display:block;
+  color:#000000;
+  background-color:#dddddd;
+  padding:8px 0px 8px 16px;
+  text-decoration:none;
+}
+li a:hover:not(.active)
+{ background-color:#555555;
+  color:white;
+}
+li a.active
+{ background-color:#4caf50;
+  color:white;
+}
+li
+{ text-align:center;
+  border-bottom: 1px solid #555;
+}
+li:last-child
+{ border:none;
+}
+</style>
 <title>
 body
 </title>
-</head>
-<body backgroud="ss.png" height="100%" width="100%">
-  this is my app ok buddy
-  login formdfge
+</header>
+<body>
+<ul>
+<li><a href="#" > HOME </a> </li>
+<li> <a href="#"> CONTACTS </a> </li>
+<li><a href="#" > AGENCY </a></li>
+<li><a href="#" > ABOUT </a> </li>
+</ul>
 </body>
 </html>
