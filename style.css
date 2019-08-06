@@ -1,6 +1,14 @@
 *{
   margin:0px;
   padding:0px;
+  border:1 solid white;
+  }
+  iframe {
+  position:fixed;
+  top:50px;
+  left:0px;
+  width:80%;
+  height:89%;
   }
   #container{
       position:fixed;
@@ -52,7 +60,7 @@
    font-weight:bold;
     }
   #bg {
-  background-image: url("pics/5.jpg");
+  background-image: url("pics/9.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
