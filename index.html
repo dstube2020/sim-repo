@@ -2,71 +2,14 @@
 <html lang='en'>
 <head>
   <title> nav bar</title>
-  <style>
-  *{
-  margin:0px;
-  padding:0px;
-  }
-  #container ul{
-      list-style:none;
-  }
-  #container ul li{
-      background-color:rgb(78,78,78);
-	  width:150px;
-	  border:1px solid purple;
-	  height:50px;
-	  line-height:50px;
-	  text-align:center;
-	  float:right;
-	  color:white;
-	  font-size:18px;
-	  opacity:0.9;
-	  font-weight:bold;
-	  
-  }
-  #container ul li:hover{
-  background-color:black;
-  }
-  #container ul ul{
-	  display:none;
-  }
-  #container ul li:hover > ul{
-	  display:block;
-  }
-  body, html{
-	  height:100%;
-	  margin:0;
-/*background-color:rgb(52,33,84);*/	  
-  }
-  #copyright{
-	  position:fixed;
-	  left:0;
-	  bottom:0;
-	  width:100%;
-   background-color:#fff;
-   text-align:center;
-   font-size:13px;
-    }
-  #bg {
-  background-image: url("pics/5.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-P{
-	COLOR:white;
-	font-family:FORTE;
-	font-size:26px;
-}
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body >
-<div id='bg'>
-<div id='container'>
-<ul>
-        <li>ABOUT</li>
-	    <li>CONTACT</li>
+  <div id='bg'>
+    <div id='container'>
+      <ul>
+        <li>HOME</li>
+	    <li>BRANDS</li>
 	    <li>NEWS</li>
         <li>MODELS		
            <ul>
@@ -75,12 +18,13 @@ P{
                <li>2017</li>
            </ul>
         </li>		   
-	<li>BRANDS</li>
-	<li>HOME</li>
-</ul>
-</div>
+	   <li>CONTACT</li>
+	   <li><a href='css.html' target='body'>ABOUT</a></li>
+  </ul>
+  <pre>       RIDE.COM</Pre>
+ </div>
 <div id='copyright'>
-<p>SOFTWARES BLOG &copy RESERVED 2019</p>
+<p>RIDE.COM  &copy RESERVED 2019</p>
 </div>
 </div>
 </body>
