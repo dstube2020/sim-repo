@@ -23,7 +23,7 @@
   #container ul li{
       background-color:rgb(78,78,78);
 	  width:150px;
-	  border:1px solid purple;
+	  border:1px  solid purple;
 	  height:50px;
 	  line-height:50px;
 	  text-align:center;
@@ -60,7 +60,7 @@
    font-weight:bold;
     }
   #bg {
-  background-image: url("pics/9.jpg");
+  background-image: url("pics/fff.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
