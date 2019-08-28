@@ -14,10 +14,14 @@ var purchases='' ;
 var orderQuantity=0;
   purchases=document.getElementById("ordertxt").value;
   orderQuantity=document.getElementById("quantitytxt").value;
+  while (orderQuantity < 1 ){
+    alert("please enter valid quantity")
+    orderQuantity=document.getElementById("quantitytxt").value;
+  }
   order.push(purchases);
   quantity.push(orderQuantity);
   document.getElementById("ordertxt").value='';
-  document.getElementById("quantitytxt").value=0;
+  document.getElementById("quantitytxt").value=1;
 }
 //function to prepare a bill to the customer
 function display(){
@@ -35,8 +39,12 @@ function payment(){
 for( var i = 0 ; i < order.length; i++){
 	var x= '';
 		x= order[i];
-	console.log(mole[x]);
+//	console.log(mole[x]);
 pay=pay + mole[x]*quantity[z];
      z++;
+    }
 console.log("final payment is " + pay);
-}}
+order=[];
+quantity=[];
+pay=0;
+} 
