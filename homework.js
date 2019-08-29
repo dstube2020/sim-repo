@@ -21,7 +21,7 @@ function reverseNumber(){
 
 function palindrome(){
     //   const x = prompt('enter a word for checkup');
-  const x = window.prompt("enter a number for checkup"); 
+  const x = window.prompt("enter a word for checkup"); 
   let palindrome = '';
  for(let i = x.length-1 ;i >= 0 ; i--){
       let y = x.charAt(i);
